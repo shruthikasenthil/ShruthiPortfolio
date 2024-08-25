@@ -1,1 +1,1 @@
-![Shruthi](https://github.com/user-attachments/assets/f94d27f4-1f54-4951-b718-6d35ee359271)
+![Shruthi](https://github.com/user-attachments/assets/67249bfa-b123-40d7-8834-09faf7461055)
