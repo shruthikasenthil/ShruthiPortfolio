@@ -29,6 +29,7 @@ body{
 }
 
       /*---------------------------Header---------------------------*/
+
 .header-area{
   padding:25px 0;
   transition: padding .3s;
@@ -102,6 +103,8 @@ body{
   cursor: pointer;
   display: none;
 }
+
+
 /*---------------------------HomePage--------------------------*/
 
 .FirstElement{
