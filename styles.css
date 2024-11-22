@@ -60,22 +60,6 @@ body{
   font-weight: 700;
 }
 
-.logo .fa-bolt {
-  color: #fed700;
-  font-size: 19.5px;
-  position: absolute; 
-  top: 60%;
-  left: 100%; 
-  transform: translate(-50%, -50%); 
-  z-index: 1; 
-}
-
-.signature {
-  width: 100px; 
-  height:auto; 
-  margin-right: 10px; 
-}
-
 .header ul li:first-child {
   margin-right: auto; 
 }  
