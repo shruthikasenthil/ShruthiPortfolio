@@ -337,24 +337,26 @@ profile-photo .img{
 .project-title p{
   color: #e5e5e5;
 }
-.projects{
+
+.projects {
   display: flex;
-  justify-content:space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .project {
-    color: #e5e5e5;
-    border: 2px solid #e5e5e5;
-    border-radius: 10px;
-    width: 48%; /* changed from 100% or 32% to allow 2 per row with spacing */
-    position: relative;
-    padding: 25px;
-    text-align: center;
-    margin-bottom: 30px; /* spacing between rows */
-    transition: 0.3s;
-    box-sizing: border-box;
+  flex: 0 0 calc(50% - 10px); /* Two per row, subtracting gap */
+  color: #e5e5e5;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
+
 
 .project i{
   background-color: #fed700;
