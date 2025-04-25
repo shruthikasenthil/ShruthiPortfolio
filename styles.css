@@ -434,7 +434,6 @@ profile-photo .img{
   }
 }
 
-
 @media(max-width:1050px){
   .FirstElement{ 
     flex-direction: column;
