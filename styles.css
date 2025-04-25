@@ -342,11 +342,12 @@ profile-photo .img{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  gap: 20px; /* Space between boxes */
 }
 
 .project {
-  flex: 0 0 calc(50% - 10px); /* Two per row, subtracting gap */
+  flex: 0 0 calc(50% - 10px); /* 2 per row with spacing */
+  max-width: calc(50% - 10px); 
   color: #e5e5e5;
   border: 2px solid #e5e5e5;
   border-radius: 10px;
@@ -354,8 +355,8 @@ profile-photo .img{
   text-align: center;
   transition: 0.3s;
   box-sizing: border-box;
-  margin-bottom: 20px;
 }
+
 
 .project i{
   background-color: #fed700;
@@ -432,6 +433,14 @@ profile-photo .img{
     width: 970px;
   }
 }
+
+@media (max-width: 768px) {
+  .project {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 
 @media(max-width:1050px){
   .FirstElement{ 
