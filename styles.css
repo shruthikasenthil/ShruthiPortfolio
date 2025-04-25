@@ -434,13 +434,6 @@ profile-photo .img{
   }
 }
 
-@media (max-width: 768px) {
-  .project {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
 
 @media(max-width:1050px){
   .FirstElement{ 
