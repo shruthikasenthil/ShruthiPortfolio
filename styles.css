@@ -379,6 +379,27 @@ profile-photo .img{
   border-color: #fed700;
 }
 
+/*---------------------------Certifications---------------------------*/ 
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.certificate {
+  flex: 0 0 calc(33.33% - 15px); /* 3 in a row */
+  max-width: calc(33.33% - 15px);
+  color: #e5e5e5;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
 
 
 /*---------------------------Contact Me---------------------------*/
@@ -508,6 +529,4 @@ profile-photo .img{
     margin-bottom: 20px; /* Space between certificates */
     text-align: center; /* Center align text */
 }
-
-
 }
