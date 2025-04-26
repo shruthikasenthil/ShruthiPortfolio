@@ -337,27 +337,23 @@ profile-photo .img{
 .project-title p{
   color: #e5e5e5;
 }
-
-.projects {
+.projects{
   display: flex;
+  justify-content:space-between;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; /* Space between boxes */
 }
-
-.project {
-  flex: 0 0 calc(50% - 10px); /* 2 per row with spacing */
-  max-width: calc(50% - 10px); 
-  color: #e5e5e5;
-  border: 2px solid #e5e5e5;
-  border-radius: 10px;
-  padding: 25px;
-  text-align: center;
-  transition: 0.3s;
-  box-sizing: border-box;
+.project{
+    /* padding: 30px 15px; */
+    color: #e5e5e5;
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    flex-basis: 32%;
+    transition: .3s;
 }
-
-
 .project i{
   background-color: #fed700;
   width: 60px;
@@ -377,29 +373,6 @@ profile-photo .img{
 }
 .project:hover{
   border-color: #fed700;
-}
-
-/*---------------------------Certifications---------------------------*/ 
-
-.certifications {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* center them horizontally */
-  gap: 20px; /* space between cards */
-  padding: 20px;
-}
-
-
-
-.certificate {
-  width: 30%; /* important: this makes 3 certificates per row */
-  border: 2px solid #e5e5e5;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  color: #e5e5e5;
-  transition: 0.3s;
-  box-sizing: border-box; /* ensures padding doesn't break width */
 }
 
 
@@ -449,8 +422,6 @@ profile-photo .img{
 }
 
  /*------------------- Responsive Design on small screen -------------------*/
-
-
 
 /* Medium layout */
 @media only screen and (min-width:1000px) and (max-width:1200px){
@@ -534,10 +505,5 @@ profile-photo .img{
     text-align: center; /* Center align text */
 }
 
-  @media (max-width: 768px) {
-  .certificate {
-    width: 90%; /* stack vertically on small screens */
-  }
-}
 
 }
