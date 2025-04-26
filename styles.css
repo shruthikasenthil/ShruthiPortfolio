@@ -375,6 +375,24 @@ profile-photo .img{
   border-color: #fed700;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Space between boxes */
+}
+
+.project {
+  flex: 0 0 calc(50% - 10px); /* 2 per row with spacing */
+  max-width: calc(50% - 10px); 
+  color: #e5e5e5;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
 
 
 /*---------------------------Contact Me---------------------------*/
