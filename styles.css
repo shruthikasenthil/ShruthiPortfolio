@@ -384,21 +384,22 @@ profile-photo .img{
 .certifications {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center align */
-  gap: 20px;
+  justify-content: center; /* center them horizontally */
+  gap: 20px; /* space between cards */
   padding: 20px;
 }
 
 
+
 .certificate {
-  width: 30%; /* Force 3 in a row */
+  width: 30%; /* important: this makes 3 certificates per row */
   border: 2px solid #e5e5e5;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
   color: #e5e5e5;
   transition: 0.3s;
-  box-sizing: border-box;
+  box-sizing: border-box; /* ensures padding doesn't break width */
 }
 
 
@@ -449,11 +450,6 @@ profile-photo .img{
 
  /*------------------- Responsive Design on small screen -------------------*/
 
-@media (max-width: 768px) {
-  .certificate {
-    width: 100%;
-  }
-}
 
 
 /* Medium layout */
@@ -537,4 +533,11 @@ profile-photo .img{
     margin-bottom: 20px; /* Space between certificates */
     text-align: center; /* Center align text */
 }
+
+  @media (max-width: 768px) {
+  .certificate {
+    width: 90%; /* stack vertically on small screens */
+  }
+}
+
 }
