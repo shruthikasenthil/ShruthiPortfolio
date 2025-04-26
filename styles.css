@@ -341,9 +341,12 @@ profile-photo .img{
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .project{
     /* padding: 30px 15px; */
+    flex: 0 0 calc(50% - 10%);
+    max-width: calc(50% - 10px); 
     color: #e5e5e5;
     border: 2px solid #e5e5e5;
     border-radius: 10px;
