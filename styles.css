@@ -384,18 +384,19 @@ profile-photo .img{
 .certifications {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center; /* Center align */
   gap: 20px;
+  padding: 20px;
 }
 
+
 .certificate {
-  flex: 0 0 calc(33.33% - 15px); /* 3 in a row */
-  max-width: calc(33.33% - 15px);
-  color: #e5e5e5;
+  width: 30%; /* Force 3 in a row */
   border: 2px solid #e5e5e5;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
+  color: #e5e5e5;
   transition: 0.3s;
   box-sizing: border-box;
 }
@@ -447,6 +448,13 @@ profile-photo .img{
 }
 
  /*------------------- Responsive Design on small screen -------------------*/
+
+@media (max-width: 768px) {
+  .certificate {
+    width: 100%;
+  }
+}
+
 
 /* Medium layout */
 @media only screen and (min-width:1000px) and (max-width:1200px){
