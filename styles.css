@@ -352,8 +352,8 @@ profile-photo .img{
     border-radius: 10px; 
     padding: 25px;
     text-align: center;
-    flex-basis: 32%;
     transition: .3s;
+    box-sizing: border-box;
 }
 .project i{
   background-color: #fed700;
